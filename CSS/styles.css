@@ -239,3 +239,39 @@ h1{
     padding: 10px;
     text-align: justify;
 }
+
+.containerBlockHabilidades{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 0px;
+    justify-items: center;
+    
+   
+    
+}
+.seccionHabilidades{
+    
+    background-color: #FED9ED;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    height: 180px;
+    width: 260px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.flexFortalezas{
+    justify-content: center;
+  display: flex;
+}
+.flexFortalezas h4{
+    margin-top: 10px;
+    margin-right:5px ;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.flexFortalezas img{
+    border-radius: 60%;
+}
