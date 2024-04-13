@@ -1,0 +1,39 @@
+
+
+
+header{
+    background-color: #E7BCDE;
+    padding: 0;
+}
+
+header a{
+    font-family: Inter;
+}
+
+body{
+    background-color: #BB9CC0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Commented out code
+h1{
+    background-color: #A367B1;
+}
+*/
+.txtimg{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 50px;
+    font-family: Inter;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0;
+}
+.ImgLogo{
+
+    height: 10px;
+    width: 1000px;
+}
