@@ -59,6 +59,16 @@ footer {
      padding: 10px;
 }
 
+.footerEx{
+    clear: both;
+    background-color: black;
+     border-radius: 10px;
+     text-align: center;
+     font-family: Inter;
+     color: white;
+     padding: 10px;
+}
+
    
 .descripcionTitulo{
     position: absolute;
@@ -321,6 +331,56 @@ h1{
     opacity: 0.8;
     
 }
+
+.containerExperiencia{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: Inter;
+    
+}
+
+.containerConstruccion{
+    margin: 20px;
+    background-color: #FED9ED;
+    justify-content: center;
+    width: 600px;
+    height: 350px;
+    
+    padding: 10px;
+    border-radius: 30px;
+    
+    
+}
+
+.containerConstruccion h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+    
+}
+
+.containerConstruccion img{
+    padding-top: 20px;
+   width: 200px;
+   height: 200px;
+   margin-left: 200px;
+   
+    
+}
+
+.containerConstruccion a{
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+   
+    
+}
+
 
   
 
