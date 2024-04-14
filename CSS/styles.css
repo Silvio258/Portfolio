@@ -157,11 +157,7 @@ footer {
     top: 920px;
     left: 300px;
   }
-/* Commented out code
-h1{
-    background-color: #A367B1;
-}
-*/
+
 .txtimg{
     position: absolute;
     top: 20px;
@@ -191,7 +187,7 @@ h1{
 .containerHabilidades {
     display: flex;
     flex-direction: column;
-    height: 2000px; /* Altura del contenedor */
+    height: 2000px; 
     
     
     
