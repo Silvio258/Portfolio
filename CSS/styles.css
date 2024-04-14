@@ -49,6 +49,16 @@ footer {
      padding: 10px;
 }
 
+.footerE{
+    clear: both;
+    background-color: black;
+     border-radius: 10px;
+     text-align: center;
+     font-family: Inter;
+     color: white;
+     padding: 10px;
+}
+
    
 .descripcionTitulo{
     position: absolute;
@@ -163,10 +173,6 @@ h1{
     transition: transform 0.3s ease; 
 }
 
-.card {
-   
-}
-
 .containerTarjetas{
     display: flex;
     flex-direction: column;
@@ -275,3 +281,46 @@ h1{
 .flexFortalezas img{
     border-radius: 60%;
 }
+
+.containerEstudios {
+    display: flex;
+    flex-direction: column;
+    height: 500px; 
+    font-family: Inter;
+    
+}
+
+.grouprelative{
+    background-color: #E7BCDE;
+    border-radius: 10px;
+}
+
+.grouprelative h3{
+  padding-left: 10px;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.grouprelative p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+  }
+
+  .grouprelative img{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    
+}
+  .grouprelative img:hover{
+    transform: scale(1.15);
+    opacity: 0.8;
+    
+}
+
+  
+
